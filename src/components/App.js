@@ -17,7 +17,7 @@ const App = () => {
         onChange={handleChange}
         placeholder="Enter your name"
       />
-      {name && <p>Hello, {name}!</p>}
+      {name && <p>Hello {name}!</p>}
     </div>
   );
 };
